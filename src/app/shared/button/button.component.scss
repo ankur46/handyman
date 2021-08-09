@@ -1,0 +1,15 @@
+.btn{
+    display: inline;
+    align-items: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    span{
+        color: #fff;
+    }
+}
+.outline{
+    span{
+        color: red;
+    }
+}

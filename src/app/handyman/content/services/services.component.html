@@ -1,0 +1,25 @@
+<div class="service-view">
+    <span>Services</span>
+    <div class="header">
+        <div class="first">
+            <span>Popular Services </span>
+            <span>in your area</span>
+        </div>
+        <div class="second">
+            <app-button text="See all Catageory" type="outline"></app-button>
+        </div>
+    </div>
+    <div class="cards">
+        <ng-container *ngFor="let opt of cards">
+            <div class="card-content">
+                <div class="image-view">
+
+                </div>
+                <div class="text-content">
+                    <span>{{opt.title}}</span>
+                    <span>{{opt.subtitle}}</span>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

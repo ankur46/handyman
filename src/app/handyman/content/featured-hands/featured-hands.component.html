@@ -1,0 +1,38 @@
+<div class="featured-view">
+    <span class="title">Featured HandyHands</span>
+    <div class="header">
+        <div class="first">
+            <span>WHATEVER YOU NEED! </span>
+            <span>THEY GOT IT COVERED</span>
+        </div>
+        <div class="second">
+            <app-button text="View all HandyHands" type="outline"></app-button>
+        </div>
+    </div>
+    <div class="profile-view">
+        <ng-container *ngFor="let card of profileCard;">
+            <div class="card">
+                <div class="image-view"></div>
+                <div class="content-view">
+                    <div class="content-title">
+                        <span>{{card.name}}</span>
+                        <span>{{card.location}}</span>
+                    </div>
+                    <span style="margin-top: 20px;">Featured Skills</span>
+                    <div class="content-table">
+                        <span>Plumbing</span>
+                        <span>$ 78.82/hr</span>
+                    </div>
+                    <div class="content-table">
+                        <span>Moving</span>
+                        <span>$ 41.82/hr</span>
+                    </div>
+                    <div class="content-table">
+                        <span>Furniture Assembly </span>
+                        <span>$ 23.82/hr</span>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

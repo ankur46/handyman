@@ -1,0 +1,31 @@
+.header-view {
+  display: flex;
+  height: 150px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  flex: auto;
+}
+.title {
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  span {    
+      font-size: 24px;
+      font-weight: 600;
+      color: red;
+  }
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: space-around;
+}
+.btn-view{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}

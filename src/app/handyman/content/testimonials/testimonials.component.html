@@ -1,0 +1,41 @@
+<div class="testimonial-view">
+    <span>Testimonials</span>
+    <div class="header">
+        <div class="first">
+            <span>HandyHand Community </span>
+            <span>Feedback</span>
+        </div>
+    </div>
+    <div class="test-card-view">
+        <div class="first">
+            <span class="first-title">Customer Stories</span>
+            <span>"Great cleaning! Reliable
+                and was able to
+                accommodate my
+                schedule. Would
+                recommend thanks
+                Nikolina!,was able to
+                accommodate my
+                schedule. Would
+                recommend thanks
+                Nikolina!"</span>
+            <div class="first-footer">
+                <span>Edwin Reyes</span>
+                <span>Cleaning on Demand</span>
+            </div>
+        </div>
+        <div class="second">
+            <ng-container *ngFor="let opt of reviewCard;">
+                <div class="second-card">
+                    <div class="profile-view">
+                        <div class="image"></div>
+                        <span>{{opt.name}}</span>
+                    </div>
+                    <div class="desc">
+                        <span>{{opt.review}}</span>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>
