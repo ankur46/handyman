@@ -1,15 +1,15 @@
 <div class="testimonial-view">
-    <span>Testimonials</span>
+    <span class="fs-18 fw-100 fc-red">Testimonials</span>
     <div class="header">
         <div class="first">
-            <span>HandyHand Community </span>
-            <span>Feedback</span>
+            <span class="fs-32 fw-500">HANDYHAND COMMUNITY </span>
+            <span class="fs-32 fw-500">FEEDBACK</span>
         </div>
     </div>
     <div class="test-card-view">
         <div class="first">
-            <span class="first-title">Customer Stories</span>
-            <span>"Great cleaning! Reliable
+            <span class="first-title fc-red">Customer Stories</span>
+            <span class="opacity-7">"Great cleaning! Reliable
                 and was able to
                 accommodate my
                 schedule. Would
@@ -20,19 +20,21 @@
                 recommend thanks
                 Nikolina!"</span>
             <div class="first-footer">
-                <span>Edwin Reyes</span>
-                <span>Cleaning on Demand</span>
+                <span class="fs-25 fw-500">Edwin Reyes</span>
+                <span class="fs-13 fc-red">Cleaning on Demand</span>
             </div>
         </div>
         <div class="second">
             <ng-container *ngFor="let opt of reviewCard;">
                 <div class="second-card">
                     <div class="profile-view">
-                        <div class="image"></div>
-                        <span>{{opt.name}}</span>
+                        <div class="image">
+                            <img src="assets/p2.jpeg">
+                        </div>
+                        <span class="fs-18 fw-500">{{opt.name}}</span>
                     </div>
                     <div class="desc">
-                        <span>{{opt.review}}</span>
+                        <span class="opacity-7">{{opt.review}}</span>
                     </div>
                 </div>
             </ng-container>

@@ -1,9 +1,9 @@
 <div class="service-view">
-    <span>Services</span>
+    <span class="fs-18 fw-100 fc-red">Services</span>
     <div class="header">
         <div class="first">
-            <span>Popular Services </span>
-            <span>in your area</span>
+            <span class="fs-32 fw-500">POPULAR SERVICES </span>
+            <span class="fs-32 fw-500">IN YOUR AREA</span>
         </div>
         <div class="second">
             <app-button text="See all Catageory" type="outline"></app-button>
@@ -13,11 +13,11 @@
         <ng-container *ngFor="let opt of cards">
             <div class="card-content">
                 <div class="image-view">
-
+                    <img src="assets/garden.jpg">
                 </div>
                 <div class="text-content">
-                    <span>{{opt.title}}</span>
-                    <span>{{opt.subtitle}}</span>
+                    <span class="fw-500">{{opt.title}}</span>
+                    <span class="opacity-7">{{opt.subtitle}}</span>
                 </div>
             </div>
         </ng-container>

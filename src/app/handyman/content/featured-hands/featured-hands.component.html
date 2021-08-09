@@ -1,9 +1,9 @@
 <div class="featured-view">
-    <span class="title">Featured HandyHands</span>
+    <span class="title fs-18 fw-100 fc-red">Featured HandyHands</span>
     <div class="header">
         <div class="first">
-            <span>WHATEVER YOU NEED! </span>
-            <span>THEY GOT IT COVERED</span>
+            <span class="fs-32 fw-500">WHATEVER YOU NEED! </span>
+            <span class="fs-32 fw-500">THEY GOT IT COVERED</span>
         </div>
         <div class="second">
             <app-button text="View all HandyHands" type="outline"></app-button>
@@ -12,24 +12,26 @@
     <div class="profile-view">
         <ng-container *ngFor="let card of profileCard;">
             <div class="card">
-                <div class="image-view"></div>
+                <div class="image-view">
+                    <img src="assets/profilepic1.jpeg">
+                </div>
                 <div class="content-view">
                     <div class="content-title">
-                        <span>{{card.name}}</span>
-                        <span>{{card.location}}</span>
+                        <span class="fs-18 fw-500">{{card.name}}</span>
+                        <span class="fs-13">{{card.location}}</span>
                     </div>
-                    <span style="margin-top: 20px;">Featured Skills</span>
+                    <span style="margin-top: 20px;" class="fw-500 fs-13">Featured Skills</span>
                     <div class="content-table">
-                        <span>Plumbing</span>
-                        <span>$ 78.82/hr</span>
-                    </div>
-                    <div class="content-table">
-                        <span>Moving</span>
-                        <span>$ 41.82/hr</span>
+                        <span class="fs-13">Plumbing</span>
+                        <span class="fw-500 fs-13">$ 78.82/hr</span>
                     </div>
                     <div class="content-table">
-                        <span>Furniture Assembly </span>
-                        <span>$ 23.82/hr</span>
+                        <span class="fs-13">Moving</span>
+                        <span class="fw-500 fs-13">$ 41.82/hr</span>
+                    </div>
+                    <div class="content-table">
+                        <span class="fs-13">Furniture Assembly </span>
+                        <span class="fw-500 fs-13">$ 23.82/hr</span>
                     </div>
                 </div>
             </div>
